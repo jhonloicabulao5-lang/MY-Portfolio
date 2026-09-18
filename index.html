@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <div class="logo">My<span>Portfolio</span></div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+                 <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button id="themeBtn">🌙</button>
+</nav>
+
+<section id="home" class="hero">
+    <div class="hero-text">
+        <p class="small-title">WELCOME TO MY E-PORTFOLIO</p>
+
+           <h1>Hello, I'm <span>Jey-Lowy</span></h1>
+
+              <h2>IT Student & Future Developer</h2>
+
+              <p>
+            I am passionate about technology, programming,
+            web development, and creating useful digital projects.
+        </p>
+
+        <a href="#projects" class="btn">View My Projects →</a>
+    </div>
+
+  <div class="profile-card">
+
+    <div class="circle">
+        <img src="profile.jpg.jpg" alt="Jhonloi Cabulao">
+    </div>
+
+    <h2>Jhonloi Cabulao</h2>
+    <p>Bachelor of Science in Information Technology<br>3rd Year Student</p>
+
+    <div class="status">
+        ● Available for learning
+    </div>
+
+</div>
+</section>
+
+
+<section id="about">
+    <div class="section-title">
+        <p>GET TO KNOW ME</p>
+        <h2>About Me</h2>
+    </div>
+
+    <div class="about-box">
+        <div>
+            <h3>Who Am I?</h3>
+            <p>
+                I am an Information Technology student(BSIT 3rd Year) interested in
+                technologies and willing to learn.
+            </p>
+            <p>
+                My goal is to continuously improve my skills and create
+                projects so that i can help people who needs me.
+            </p>
+             <h3>My Motto in life</h3>
+            <p>"Just a kid With a Big dream"</p>
+        </div>
+
+        <div class="info">
+            <p><b>Name:</b> Jhonloi Cabulao</p>
+            <p><b>Address:</b> Matin-ao, Carmen,Bohol</p>
+             <p><b>Contact:</b> 09084485853</p>
+               <h3>Educational Background</h3>
+             <p><b>Current:</b> Buenavista Community Colloge(BCC)</p>  
+             <p><b>Secondary:</b>Ponciano F. Ramasola Sr.High School</p>
+            <p><b>Course:</b> Bachelor of Science in Information Technology</p>
+            <p><b>Interest:</b> Web Development & Web designer </p>
+            <p><b>Goal:</b> Become a Billionaire</p>
+        </div>
+    </div>
+</section>
+
+<
+<section id="skills">
+    <div class="section-title">
+        <p>WHAT I CAN DO</p>
+        <h2>My Skills</h2>
+    </div>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <div class="icon">🌐</div>
+                <h3>HTML</h3>
+                 <p>Basic Creating a simple webpages.</p>
+            <div class="bar">
+        <span style="width: 90%;"></span>
+      </div>
+        </div>
+
+        <div class="skill-card">
+             <div class="icon">🎨</div>
+                <h3>CSS</h3>
+                 <p>Basic Designing an attractive websites.</p>
+                <div class="bar">
+            <span style="width: 80%;"></span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="icon">⚡</div>
+             <h3>JavaScript</h3>
+               <p>Basic Adding interactive functions to websites.</p>
+            <div class="bar">
+          <span style="width: 70%;"></span>
+       </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="icon">☕</div>
+              <h3>Java</h3>
+               <p>Basic programming.</p>
+            <div class="bar">
+          <span style="width: 75%;"></span>
+      </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="projects">
+    <div class="section-title">
+        <p>MY WORK</p>
+        <h2>Projects</h2>
+    </div>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+          <div class="project-number">01</div>
+             <h3>Booking Lodge System</h3>
+               <p>
+                A simple website where users can view rooms and make
+                reservations.
+            </p>
+            <span>HTML • CSS • JavaScript</span>
+        </div>
+
+        <div class="project-card">
+            <div class="project-number">02</div>
+            <h3>Coffee Vending Machine</h3>
+            <p>
+                An Arduino-based project using a coin sensor,
+                LCD, pumps, and voice commands.
+            </p>
+            <span>Arduino • C++ • Electronics</span>
+        </div>
+
+        <div class="project-card">
+            <div class="project-number">03</div>
+            <h3>Student Attendance System</h3>
+            <p>
+                A simple system designed to record and manage
+                student attendance.
+            </p>
+            <span>HTML • CSS • JavaScript</span>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="contact">
+    <div class="section-title">
+        <p>LET'S CONNECT</p>
+        <h2>Contact Me</h2>
+    </div>
+
+    <div class="contact-box">
+
+        <div>
+            <h3>Have a project idea?</h3>
+            <p>
+                Feel free to send me a message.
+                I would be happy to connect with you.
+            </p>
+        </div>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn">
+                Send Message
+            </button>
+        </form>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Jhonloi Cabulao | My E-Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
